@@ -69,11 +69,23 @@
     <Build Include="Functions\SF_SaltAndHash.sql" />
     <Build Include="StoredProcedures\SP_User_Insert.sql" />
     <Build Include="StoredProcedures\SP_User_CheckPassword.sql" />
-    <Build Include="StoredProcedures\SP_Employee_CheckProjectManager.sql" />
+    <Build Include="StoredProcedures\SP_Employee_Check_IsProjectManager.sql" />
     <Build Include="StoredProcedures\SP_Project_Insert.sql" />
     <Build Include="StoredProcedures\SP_Employee_GetFree.sql" />
     <Build Include="StoredProcedures\SP_Employee_Check_WorkOnProject.sql" />
     <Build Include="StoredProcedures\SP_Post_Insert.sql" />
+    <Build Include="StoredProcedures\SP_Employee_Insert.sql" />
+    <Build Include="StoredProcedures\SP_Employee_Promoted_ProjectManager.sql" />
+    <Build Include="StoredProcedures\SP_Project_Get_FromProjectManagerId.sql" />
+    <Build Include="StoredProcedures\SP_Project_Get_FromEmployeeId.sql" />
+    <Build Include="StoredProcedures\SP_Employee_Get_FromProjectId.sql" />
+    <Build Include="StoredProcedures\SP_Post_Get_FromProjectId_WorkOnProject.sql" />
+    <Build Include="StoredProcedures\SP_Post_Get_FromProjectId_ProjectManager.sql" />
+    <Build Include="StoredProcedures\SP_Post_Update.sql" />
+    <Build Include="StoredProcedures\SP_Employee_Get_FromUserId.sql" />
+    <Build Include="StoredProcedures\SP_Employee_Get_FromEmployeeId.sql" />
+    <Build Include="StoredProcedures\SP_TakePart_Insert.sql" />
+    <Build Include="StoredProcedures\SP_TakePart_SetEnd.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ProjectManager.Database.publish.xml" />

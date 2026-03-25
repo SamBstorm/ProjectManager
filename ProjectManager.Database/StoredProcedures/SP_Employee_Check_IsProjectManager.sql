@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[SP_Employee_CheckProjectManager]
+﻿CREATE PROCEDURE [dbo].[SP_Employee_Check_IsProjectManager]
 	@employeeId UNIQUEIDENTIFIER
 AS
 BEGIN

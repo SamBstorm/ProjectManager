@@ -6,6 +6,6 @@ BEGIN
 	EXCEPT
 	SELECT	[EmployeeId]
 		FROM [TakePart]
-		WHERE	GETDATE() > [StartDate] 
+		WHERE	GETDATE() >= [StartDate] 
 			AND ([EndDate] IS NULL OR [EndDate] > GETDATE())
 END
