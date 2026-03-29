@@ -59,6 +59,7 @@
     <Folder Include="Tables" />
     <Folder Include="StoredProcedures" />
     <Folder Include="Functions" />
+    <Folder Include="Scripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Employee.sql" />
@@ -75,7 +76,6 @@
     <Build Include="StoredProcedures\SP_Employee_Check_WorkOnProject.sql" />
     <Build Include="StoredProcedures\SP_Post_Insert.sql" />
     <Build Include="StoredProcedures\SP_Employee_Insert.sql" />
-    <Build Include="StoredProcedures\SP_Employee_Promoted_ProjectManager.sql" />
     <Build Include="StoredProcedures\SP_Project_Get_FromProjectManagerId.sql" />
     <Build Include="StoredProcedures\SP_Project_Get_FromEmployeeId.sql" />
     <Build Include="StoredProcedures\SP_Employee_Get_FromProjectId.sql" />
@@ -86,8 +86,13 @@
     <Build Include="StoredProcedures\SP_Employee_Get_FromEmployeeId.sql" />
     <Build Include="StoredProcedures\SP_TakePart_Insert.sql" />
     <Build Include="StoredProcedures\SP_TakePart_SetEnd.sql" />
+    <Build Include="StoredProcedures\SP_Project_Update.sql" />
+    <Build Include="StoredProcedures\SP_Employee_Set_IsProjectManager.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ProjectManager.Database.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />
   </ItemGroup>
 </Project>
