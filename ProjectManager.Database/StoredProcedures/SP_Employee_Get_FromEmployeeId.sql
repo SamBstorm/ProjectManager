@@ -6,7 +6,8 @@ BEGIN
 			[Firstname],
 			[Lastname],
 			[Hiredate],
-			[IsProjectManager]
-		FROM	[Employee] 
+			[IsProjectManager],
+			[Email]
+		FROM	[V_UserEmployee] 
 		WHERE	[EmployeeId] = @employeeId
 END

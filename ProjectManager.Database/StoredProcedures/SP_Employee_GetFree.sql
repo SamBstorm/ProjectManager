@@ -5,8 +5,9 @@ BEGIN
 			[Firstname],
 			[Lastname],
 			[Hiredate],
-			[IsProjectManager]
-		FROM [Employee] AS [E]
+			[IsProjectManager],
+			[Email]
+		FROM [V_UserEmployee] AS [E]
 			JOIN (
 	SELECT	[EmployeeId]
 		FROM	[Employee]

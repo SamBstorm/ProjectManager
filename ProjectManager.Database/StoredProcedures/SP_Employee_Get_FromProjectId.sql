@@ -6,8 +6,9 @@ BEGIN
 			[Firstname],
 			[Lastname],
 			[Hiredate],
-			[IsProjectManager]
-		FROM [Employee] AS [E]
+			[IsProjectManager],
+			[Email]
+		FROM [V_UserEmployee] AS [E]
 			JOIN [TakePart] AS [TP]
 				ON [E].[EmployeeId] = [TP].[EmployeeId]
 		WHERE [TP].[ProjectId] = @projectId

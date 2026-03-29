@@ -60,6 +60,7 @@
     <Folder Include="StoredProcedures" />
     <Folder Include="Functions" />
     <Folder Include="Scripts" />
+    <Folder Include="Views" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Employee.sql" />
@@ -88,6 +89,9 @@
     <Build Include="StoredProcedures\SP_TakePart_SetEnd.sql" />
     <Build Include="StoredProcedures\SP_Project_Update.sql" />
     <Build Include="StoredProcedures\SP_Employee_Set_IsProjectManager.sql" />
+    <Build Include="StoredProcedures\SP_User_Get_FromEmployeeId.sql" />
+    <Build Include="StoredProcedures\SP_Project_Get_ById.sql" />
+    <Build Include="Views\V_UserEmployee.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ProjectManager.Database.publish.xml" />

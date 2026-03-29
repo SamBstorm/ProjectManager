@@ -1,7 +1,7 @@
 ﻿CREATE PROCEDURE [dbo].[SP_TakePart_SetEnd]
 	@employeeId UNIQUEIDENTIFIER,
 	@projectId UNIQUEIDENTIFIER,
-	@endDate DATE
+	@endDate DATETIME2
 AS
 BEGIN
 	UPDATE [TakePart] 

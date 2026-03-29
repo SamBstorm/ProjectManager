@@ -1,7 +1,7 @@
 ﻿CREATE PROCEDURE [dbo].[SP_TakePart_Insert]
 	@employeeId UNIQUEIDENTIFIER,
 	@projectId UNIQUEIDENTIFIER,
-	@startDate DATE
+	@startDate DATETIME2
 AS
 BEGIN
 	INSERT [TakePart] ([EmployeeId],[ProjectId],[StartDate])
